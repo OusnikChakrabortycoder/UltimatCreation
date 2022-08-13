@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            next page 
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+     <link rel="stylesheet" href="nextstyle.css">
+    </head>
+    <body>
+        <center>
+            <div id="div" > 
+                <h1>Lets Chat
+                <img id="image" src="school.png">
+            </h1>
+            <br>
+            <br>
+            <h1 id="welcome"></h1>
+            <br>
+            <br>
+            <input type="text" id="room_name" placeholder="make your own room by entering the name here">
+            <br>
+            <br>
+            <button id="Add_room" class="btn btn-danger" onclick="add_room()">Add Room</button>
+            <br>
+            <br>
+        </div> 
+<br>
+<br>
+        <div id="trending_room">
+          <h2>Trending Room</h2>
+        </div>
+        </center>
+    </body>
+</html>

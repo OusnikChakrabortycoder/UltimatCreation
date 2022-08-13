@@ -1,0 +1,21 @@
+#image{
+    width: 150px;
+    height: 150px;
+}
+#div{
+    box-shadow: 5px 5px 30px rgb(9, 9, 9);
+    width: 60%;
+    background-color: black;
+    color: white;
+}
+#room_name{
+    width: 80%;
+}
+#room_name::placeholder{
+    text-align: center;
+}
+#trending_room{
+    background-color: aqua;
+    box-shadow: 5px 5px 30px black;
+    width: 60% ;
+}
